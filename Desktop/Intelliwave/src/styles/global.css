@@ -325,3 +325,28 @@ textarea:focus-visible {
     grid-template-columns: 1.1fr 0.9fr;
   }
 }
+
+/* Loading fallback styles */
+.loading-fallback {
+  padding: 24px;
+}
+
+/* App layout styles */
+.app-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+}
+
+/* Page content styles */
+.page-content {
+  padding: 24px;
+}
+
+.muted-text {
+  color: var(--muted);
+}
