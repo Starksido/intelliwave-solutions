@@ -11,6 +11,7 @@
 If you want to deploy manually:
 
 1. **Build your project:**
+
    ```bash
    npm run build
    ```
