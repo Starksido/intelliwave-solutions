@@ -8,7 +8,7 @@ const Services = React.lazy(() => import('./pages/Services'));
 const Founders = React.lazy(() => import('./pages/Founders'));
 const Sydney = React.lazy(() => import('./pages/founders/Sydney'));
 const Steve = React.lazy(() => import('./pages/founders/Steve'));
-const ContactUs = React.lazy(() => import('./pages/Contact us'));
+const ContactUs = React.lazy(() => import('./pages/ContactUs'));
 //
 const Privacy = React.lazy(() => import('./pages/Privacy'));
 const Terms = React.lazy(() => import('./pages/Terms'));
