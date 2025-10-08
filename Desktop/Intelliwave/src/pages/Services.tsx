@@ -4,12 +4,12 @@ export default function Services() {
 	return (
 		<div>
 			<SEO title="Services — Intelliwave Solutions" description="Surveillance, cybersecurity, cloud, networks, integration & automation, hardware, and web/mobile." />
-            <h2>Services Offered by IntelliWave Solutions</h2>
-            <p style={{ color: 'var(--muted)' }}>
-                IntelliWave Solutions delivers a comprehensive suite of IT and computer science services, blending advanced technology expertise to empower businesses with innovative, scalable solutions. Our offerings reflect a commitment to excellence, tailored to meet the diverse needs of our clients.
+            <h2>Our Services</h2>
+            <p className="services-intro">
+                We deliver a comprehensive suite of IT  services, blending advanced technology expertise to empower businesses with innovative, scalable solutions. Our offerings reflect a commitment to excellence, tailored to meet the diverse needs of our clients.
             </p>
 
-            <ul style={{ marginTop: 16 }}>
+            <ul className="services-list">
                 <li>
                     <strong>Surveillance and Security</strong>
                     <ul>
@@ -148,7 +148,7 @@ export default function Services() {
                 </li>
             </ul>
 
-            <div style={{ marginTop: 16 }}>
+            <div className="consultation-button">
                 <a className="button" href="mailto:privacy@intelliwavesolutions.com">Request a Consultation</a>
             </div>
 		</div>
